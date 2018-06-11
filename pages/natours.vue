@@ -1,7 +1,21 @@
 <template>
   <div>
     <header class="header">
-      Some text...
+      <div class="logo-box">
+        <img class="logo" src="img/logo-white.png" alt="Logo">
+      </div>
+
+      <div class="text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main">
+            Outdoors
+          </span>
+          <span class="heading-primary-sub">
+            Is where life happens
+          </span>
+        </h1>
+        <a class="btn btn-white btn-animated" href="#">Discover our tours</a>
+      </div>
     </header>
   </div>
 </template>
