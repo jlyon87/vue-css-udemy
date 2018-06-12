@@ -1,20 +1,20 @@
 <template>
   <div>
     <header class="header">
-      <div class="logo-box">
-        <img class="logo" src="img/logo-white.png" alt="Logo">
+      <div class="header_logo-box">
+        <img class="header_logo" src="img/logo-white.png" alt="Logo">
       </div>
 
-      <div class="text-box">
+      <div class="header_text-box">
         <h1 class="heading-primary">
-          <span class="heading-primary-main">
+          <span class="heading-primary__main">
             Outdoors
           </span>
-          <span class="heading-primary-sub">
+          <span class="heading-primary__sub">
             Is where life happens
           </span>
         </h1>
-        <a class="btn btn-white btn-animated" href="#">Discover our tours</a>
+        <a class="btn btn__white btn__animated" href="#">Discover our tours</a>
       </div>
     </header>
   </div>
@@ -34,4 +34,3 @@ export default {
   }
 }
 </script>
-

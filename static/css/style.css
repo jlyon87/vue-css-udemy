@@ -32,7 +32,7 @@ body {
 
 .header {
   position: relative;
-  height: 95vh;
+  height: 85vh;
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
@@ -47,7 +47,7 @@ body {
     0 100%);
 }
 
-.text-box {
+.header_text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -55,13 +55,13 @@ body {
   text-align: center;
 }
 
-.logo-box {
+.header_logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header_logo {
   height: 3.5rem;
 }
 
@@ -72,7 +72,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary__main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -80,7 +80,7 @@ body {
   animation: moveInLeft 1s ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary__sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -132,7 +132,7 @@ body {
   }
 }
 
-.btn-animated {
+.btn__animated {
   animation: moveInBottom .5s ease-out .75s;
   animation-fill-mode: backwards;
 }
@@ -159,7 +159,7 @@ body {
   box-shadow: 0 .5rem 1rem;
 }
 
-.btn-white {
+.btn__white {
   background-color: #fff;
   color: #777;
 }
@@ -177,7 +177,7 @@ body {
   transition: all .4s;
 }
 
-.btn-white::after {
+.btn__white::after {
   background-color: #fff;
 }
 
