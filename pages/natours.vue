@@ -14,20 +14,21 @@
             Is where life happens
           </span>
         </h1>
-        <a class="btn btn__white btn__animated" href="#">Discover our tours</a>
+        <a class="greybtn btn btn__white btn__animated" href="#">Discover our tours</a>
       </div>
     </header>
   </div>
 </template>
 
 <script>
+import css from '../assets/scss/main.scss';
+
 export default {
   head() {
     return {
       title: 'Natours | Exciting tours for adventurous people',
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' },
-        { rel: 'stylesheet', href: 'css/style.css' },
         { rel: 'shortcut icon', type: 'image/png', href: 'img/favicon.png' }
       ]
     }

@@ -1,0 +1,5 @@
+$temp-var: #777;
+
+@function getImage($imageName) {
+  @return '../../static/img/' + $imageName;
+}
