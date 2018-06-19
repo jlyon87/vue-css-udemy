@@ -15,9 +15,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  // css: [
-  //   '@/assets/scss/main.scss'
-  // ],
+  css: [
+    '@/assets/scss/main.scss'
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -27,8 +27,7 @@ module.exports = {
     ['nuxt-sass-resources-loader']
   ],
   sassResources: [
-    '@/assets/scss/variables.scss',
-    '@/assets/scss/main.scss'
+    '@/assets/scss/variables.scss'
   ],
 
   build: {
