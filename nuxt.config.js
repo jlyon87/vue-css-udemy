@@ -28,9 +28,5 @@ module.exports = {
   ],
   sassResources: [
     '@/assets/scss/variables.scss'
-  ],
-
-  build: {
-    extractCSS: true
-  }
+  ]
 }

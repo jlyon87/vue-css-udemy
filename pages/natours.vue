@@ -21,7 +21,6 @@
 </template>
 
 <script>
-//import css from '../assets/scss/main.scss';
 
 export default {
   head() {
