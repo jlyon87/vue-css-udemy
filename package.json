@@ -26,18 +26,5 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.3",
     "standard": "^11.0.1"
-  },
-  "standard": {
-    "validate": [
-      "javascript",
-      "javascriptreact",
-      "html",
-      "vue"
-    ],
-    "options": {
-      "plugins": [
-        "html"
-      ]
-    }
   }
 }

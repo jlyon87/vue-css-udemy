@@ -14,7 +14,7 @@
             Is where life happens
           </span>
         </h1>
-        <a class="greybtn btn btn__white btn__animated" href="#">Discover our tours</a>
+        <a class="btn btn__white btn__animated" href="#">Discover our tours</a>
       </div>
     </header>
   </div>
@@ -23,7 +23,7 @@
 <script>
 
 export default {
-  head() {
+  head () {
     return {
       title: 'Natours | Exciting tours for adventurous people',
       link: [
